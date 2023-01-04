@@ -18,6 +18,7 @@ import javax.inject.Inject
 class LoginActivity :BaseActivity<ActivityLoginBinding>() {
 
     lateinit var binding: ActivityLoginBinding
+
     @Inject
     lateinit var sharedPrefFile:SharedPrefFile
     @Inject
