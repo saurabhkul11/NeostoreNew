@@ -7,23 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <color name="colorprimaryred">#e91b1a</color>
-    <color name="colorsecondaryred">#fe3f3f</color>
-    <color name="colorprimaryvariant">#bb0100</color>
-    <color name="coloronsecondary">#9e0100</color>
-    <color name="grey">#7f7f7f</color>
-    <color name="navigatoinheadercolor">#2c2b2b</color>
-    <color name="itemfontcolor">#4f4f4f</color>
-    <color name="itempricecolor">#fe4040</color>
-    <color name="starratingcolor">#FFBA00</color>
-    <color name="resetpasswordcolor">#333333</color>
-    <color name="producdetailcolor">#262626</color>
-    <color name="productdetailbackground">#ededed</color>
-    <color name="descriptioncolor">#111111</color>
-    <color name="descriptiontextcolor">#333333</color>
-    <color name="ratecolor">#bfbfbf</color>
-    <color name="addtocartheading">#2c2b2b</color>
-    <color name="green">#65ff5d</color>
-
 </resources>
