@@ -5,6 +5,7 @@ import android.os.PersistableBundle
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.widget.Toast
+import android.R
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
 

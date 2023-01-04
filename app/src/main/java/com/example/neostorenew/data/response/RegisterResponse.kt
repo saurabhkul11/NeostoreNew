@@ -1,4 +1,6 @@
 package com.example.neostorenew.data.response
+import android.R
+
 data class RegisterResponse(
     val `data`: UserData,
     val message: String,
