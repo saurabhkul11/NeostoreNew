@@ -50,6 +50,9 @@ class DashBoardActivity:BaseActivity<ActivityHomeScreenBinding>(),View.OnClickLi
             R.id.imgCupBoardIcon->{
 
             }
+            R.id.imgTableIcon->{
+
+            }
         }
 
 
