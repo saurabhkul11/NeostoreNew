@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.neostorenew.R
 import com.example.neostorenew.databinding.ActivitySplashBinding
 import com.example.neostorenew.view.activity.Login.LoginActivity
-import com.example.neostorenew.view.activity.Register.RegisterActivity
 
 class SplashActivity:AppCompatActivity() {
     lateinit var binding: ActivitySplashBinding
