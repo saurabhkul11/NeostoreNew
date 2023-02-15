@@ -2,7 +2,6 @@ package com.example.neostorenew.api
 
 import com.example.neostorenew.utils.Constant.Constants
 import com.example.neostorenew.view.activity.Register.RegisterService
-import com.facebook.stetho.okhttp3.StethoInterceptor
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient
@@ -11,37 +10,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
-import android.R
 
-//@Module
-//class ApiService {
-//    @Singleton
-//    @Provides
-//    fun getRetrofit(): Retrofit {
-//        return Retrofit.Builder().baseUrl(Constants.BASE_URL)
-//            .addConverterFactory(GsonConverterFactory.create())
-//            .client(getHttpClient())
-//            .build()
-//    }
-//
-//
-//    @Singleton
-//    @Provides
-//    fun getHttpClient(): OkHttpClient {
-//
-//        return OkHttpClient.Builder()
-//            .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.NONE))
-//            .addNetworkInterceptor(StethoInterceptor())
-//            .build()
-//    }
-//
-//    @Provides
-//    @Singleton
-//    fun retrofitService(retrofit: Retrofit): RegisterService {
-//        return retrofit.create(RegisterService::class.java)
-//    }
-//}
-    @Module
+@Module
     class ApiService {
 
     // 10 MB

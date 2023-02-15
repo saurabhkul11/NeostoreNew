@@ -9,10 +9,8 @@ import com.example.neostorenew.view.activity.Register.RegisterActivity
 import dagger.Component
 import javax.inject.Singleton
 
-
 @Singleton
 @Component(modules = [ApiService::class,SharedPreferenceModule::class])
-
 
 interface Appcomponent {
    fun inject(loginActivity: LoginActivity)

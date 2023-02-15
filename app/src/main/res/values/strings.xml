@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NeostoreNew</string>
+
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
 </resources>

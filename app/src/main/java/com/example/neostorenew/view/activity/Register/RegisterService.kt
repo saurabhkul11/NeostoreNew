@@ -1,6 +1,7 @@
 package com.example.neostorenew.view.activity.Register
 
 import com.example.neostorenew.data.request.RegisterRequest
+import com.example.neostorenew.data.response.ProductListResponse
 import com.example.neostorenew.data.response.RegisterResponse
 import retrofit2.Call
 import retrofit2.Response
@@ -27,5 +28,10 @@ interface RegisterService {
         @Field("email")email:String,
         @Field("password")password: String
     ):Response<RegisterResponse>
+
+
+    @GET("products/getList")
+    fun getProductList(@Query("product_category_id") product_category_id:String):Response<ProductListResponse>
+
 
 }

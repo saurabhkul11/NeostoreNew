@@ -25,4 +25,6 @@ class SharedPreferenceModule(private val application: Application) {
     @Provides
     fun provideApplication(): Application=application
 
+
+
 }

@@ -1,33 +1,17 @@
 package com.example.neostorenew.view.activity.Register
 
-import android.content.Context
 import android.util.Patterns
 import android.widget.RadioGroup
-import android.widget.TextView
-import android.widget.Toast
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.neostorenew.data.request.RegisterRequest
 import com.example.neostorenew.data.response.RegisterResponse
-import com.example.neostorenew.databinding.ActivityRegistrationBinding
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class RegisterViewModel @Inject constructor(private var registerRepository: RegisterRepository):ViewModel() {
 
     var registerdata = MutableLiveData<RegisterResponse>()
-    // var errorlist=MutableLiveData<String>()
-
-
-//    fun create(user:RegisterRequest){
-//       viewModelScope.launch {
-//           val result=registerRepository.createuser(user)
-//           registerdata.postValue(result.body())
-//
-//       }
-//}
 
     fun create(
         first_name:String,last_name:String,email:String,
@@ -40,7 +24,6 @@ class RegisterViewModel @Inject constructor(private var registerRepository: Regi
             )
             registerdata.postValue(result.body())
         }
-
 
     }
 
@@ -121,8 +104,5 @@ class RegisterViewModel @Inject constructor(private var registerRepository: Regi
         }
         return true
     }
-
-
-
 
 }

@@ -57,7 +57,6 @@ class RegisterActivity : BaseActivity<ActivityRegistrationBinding>() {
             }
         })
 
-
     }
 
     override fun applyUI(rbinding: ActivityRegistrationBinding) {
